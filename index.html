@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mama's Pottery Nairobi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .hero-bg { background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('https://picsum.photos/id/1015/2000/1200') center/cover no-repeat; }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-800">
+    <!-- Hero -->
+    <header class="hero-bg h-screen flex items-center justify-center text-white text-center">
+        <div class="max-w-4xl px-6">
+            <h1 class="text-7xl font-bold tracking-tight mb-4">Mama's Pottery</h1>
+            <p class="text-3xl mb-10">Handcrafted in Nairobi with love</p>
+            <a href="#shop" class="inline-flex items-center gap-3 bg-amber-700 hover:bg-amber-800 px-10 py-4 rounded-full text-xl font-medium">Browse Pots</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section class="py-20">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+            <div>
+                <h2 class="text-5xl font-semibold mb-8">Our Story</h2>
+                <p class="text-xl leading-relaxed text-stone-600">For over 20 years, my mother has been creating beautiful, functional pottery right here in Nairobi. Every piece is shaped by hand and fired with care.</p>
+                <p class="mt-6 text-xl text-stone-600">We make flower pots, cooking pots, vases, and more — perfect for homes and gardens.</p>
+            </div>
+            <img src="https://picsum.photos/id/201/800/600" alt="Workshop" class="rounded-3xl shadow-2xl">
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section id="shop" class="py-20 bg-stone-100">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-5xl font-semibold text-center mb-16">Featured Pots</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Item 1 -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow hover:shadow-xl transition">
+                    <img src="https://picsum.photos/id/133/600/420" class="w-full h-72 object-cover">
+                    <div class="p-8">
+                        <h3 class="text-2xl font-medium">Terracotta Planters</h3>
+                        <p class="text-amber-700 font-medium mt-1">KSh 800 – 2,500</p>
+                        <p class="text-sm text-stone-500 mt-4">Various sizes for indoor & outdoor plants</p>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow hover:shadow-xl transition">
+                    <img src="https://picsum.photos/id/180/600/420" class="w-full h-72 object-cover">
+                    <div class="p-8">
+                        <h3 class="text-2xl font-medium">Clay Cooking Pots</h3>
+                        <p class="text-amber-700 font-medium mt-1">KSh 1,200 – 3,000</p>
+                        <p class="text-sm text-stone-500 mt-4">Traditional & modern designs</p>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow hover:shadow-xl transition">
+                    <img src="https://picsum.photos/id/201/600/420" class="w-full h-72 object-cover">
+                    <div class="p-8">
+                        <h3 class="text-2xl font-medium">Decorative Vases</h3>
+                        <p class="text-amber-700 font-medium mt-1">KSh 1,500 – 4,000</p>
+                        <p class="text-sm text-stone-500 mt-4">Beautiful centerpieces</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-20 bg-amber-700 text-white">
+        <div class="max-w-4xl mx-auto text-center px-6">
+            <h2 class="text-5xl font-semibold mb-6">Ready to order?</h2>
+            <p class="text-2xl mb-10">Message us on WhatsApp for prices, availability & delivery in Nairobi</p>
+            <a href="https://wa.me/254700000000?text=Hi%20Mama%27s%20Pottery%2C%20interested%20in%20your%20pots" 
+               target="_blank" class="inline-flex items-center justify-center gap-4 bg-white text-amber-700 hover:bg-stone-100 px-12 py-5 rounded-2xl text-2xl font-medium">
+                <i class="fab fa-whatsapp text-4xl"></i> WhatsApp Now
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-stone-900 text-stone-400 py-12 text-center">
+        <p class="text-lg">📍 Nairobi, Kenya • Physical sales & local delivery only</p>
+        <p class="mt-4">© 2026 Mama's Pottery. Handmade with ❤️</p>
+    </footer>
+</body>
+</html>
